@@ -1,0 +1,61 @@
+.wrapper{
+    position: absolute; 
+}
+.face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vmin;
+    height: 70vmin;
+    border-radius: 50%;
+    position: relative;
+    background: radial-gradient(ellipse at center, #f9131b, #fd5a60 60%, #e1ecde calc(60% + 1px), #e1ecde 63%, #079554 calc(63% + 1px), #079554 68%, #056e3e calc(68% + 1px));
+}
+.seeds div{
+    display: block;
+    position: absolute;
+    height: 3.5vmin;
+    width: 2vmin;
+    background: #bb2328;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.seeds div:nth-child(1){
+    top: 80%;
+    left: 46%;
+    transform: rotate(275deg);
+}
+.seeds div:nth-child(2){
+    top: 68%;
+    left: 45%;
+    transform: rotate(275deg);
+}
+.seeds div:nth-child(3){
+    top: 54%;
+    left: 26%;
+    transform: rotate(124);
+}
+.seeds div:nth-child(4){
+    top: 46%;
+    left: 74%;
+    transform: rotate(275deg);
+}
+.seeds div:nth-child(5){
+    top: 28%;
+    left: 51%;
+    transform: rotate(275deg);
+}
+.seeds div:nth-child(6){
+    top: 19%;
+    left: 66%;
+    transform: rotate(275deg);
+}
+.seeds div:nth-child(7){
+    top: 21%;
+    left: 33%;
+    transform: rotate(275deg);
+}
+.seeds div:nth-child(8){
+    top: 64%;
+    left: 73%;
+    transform: rotate(275deg);
+}
